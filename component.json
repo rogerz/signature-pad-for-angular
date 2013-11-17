@@ -4,15 +4,32 @@
   "description": "signature pad wrappped as angular module",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "rogerz/signature-pad": "*",
+    "rogerz/control-panel-for-angular": "*",
+    "rogerz/color-picker-for-angular": "*",
+    "rogerz/signature-api-legacy-for-angular": "*",
+    "components/bootstrap-default": "*"
+  },
   "development": {},
   "license": "MIT",
   "main": "index.js",
   "scripts": [
     "index.js",
-    "template.js"
+    "module.js",
+    "directive.js"
   ],
   "styles": [
-    "signature-pad-for-angular.css"
-  ]
+    "sign-pad.css"
+  ],
+  "templates": [
+    "sign-pad.html",
+    "panel.html"
+  ],
+  "paths": [
+    "local"
+  ],
+  "local": [
+  ],
+  "remotes": []
 }

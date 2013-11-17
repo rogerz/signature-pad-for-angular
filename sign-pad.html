@@ -1,0 +1,19 @@
+<div id="sign-pad-main">
+  <canvas></canvas>
+</div>
+<div id="sign-pad-preview" ng-show="preview.display">
+  <button type="button" class="close pull-right" aria-hidden="true" ng-click="preview.hide()">
+    <span class="glyphicon glyphicon-remove-circle"></span>
+  </button>
+  <div class="well">
+    <img ng-src="{{preview.src}}" width="100%"></img>
+  </div>
+  <div class="btn-group btn-group-justified">
+    <a class="btn btn-default" ng-click="clearPad();updatePreview();preview.hide();$event.stopPropagation()">
+      <span class="glyphicon glyphicon-trash"></span>
+    </a>
+    <a class="btn btn-primary" ng-click="preview.confirm();$event.stopPropagation()">
+      <span class="glyphicon glyphicon-ok"></span>
+    </a>
+  </div>
+</div>

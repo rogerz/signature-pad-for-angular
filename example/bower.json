@@ -1,0 +1,25 @@
+{
+  "name": "sign-pad-example",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Rogerz Zhang <rogerz.zhang@gmail.com>"
+  ],
+  "description": "example app of sign pad",
+  "keywords": [
+    "angular",
+    "demo"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.1"
+  }
+}
